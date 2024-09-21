@@ -86,7 +86,10 @@ echo "
 kubectl delete -n echoserver ing --all
 kubectl delete -n game-2048 ing --all
 kubectl delete   ing --all
-kubectl delete  svc --all
+kubectl delete  svc my-nginx-nlb myapp-b myapp-a myapp-b myapp-c
+kubectl delete -n echoserver    my-echoserver-svc  
+kubectl delete  -n game-2048     service-2048  
+
 
 
 sleep 60 
