@@ -124,9 +124,9 @@ managedNodeGroups:
     maxSize: 3
     minSize: 0
     volumeSize: 20
-    ssh:
-      allow: true
-      publicKeyPath: AliSyd
+#    ssh:
+#      allow: true
+#      publicKeyPath: AliSyd
 
 kubernetesNetworkConfig:
   ipFamily: IPv4 # or IPv6
